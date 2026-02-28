@@ -1,6 +1,6 @@
 format: jb-book
 root: index
 chapters:
-  - file: about.md
-  - file: chapter1.md
-  - file: chapter2.md
+  - file: about
+  - file: chapter1
+  - file: chapter2
