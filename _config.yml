@@ -1,32 +1,21 @@
-# Project configuration
-
-# Jupyter Book configuration for GIMLA PSI LCA
-
-# The title of the book
 title: "GIMLA PSI LCA"
-
-# A subtitle for the book
-subtitle: "Life Cycle Assessment"
-
-# Favicon, if desired. Can be a relative path to an image file or a URL.
-favicon: "favicon.ico"
-
-# The author(s) of the book
 author: "Your Name"
 
-# The main navigation menu of the book
-# The order of the entries is reflected in the appearance of the book.
-# You can add other pages or folders to the navigation as needed.
-nav:
-  - Home: index.md
-  - About: about.md
-  - Content:
-      - Chapter 1: chapter1.md
-      - Chapter 2: chapter2.md
+execute:
+  execute_notebooks: "off"
 
-# Configurations for HTML output
 html:
-  theme:
-    name: "sphinx_book_theme"
-  theme_options:
-    repository: "https://github.com/auribep18/gimla-psi-lca"
+  use_repository_button: true
+  use_issues_button: true
+
+repository:
+  url: "https://github.com/auribep18/GIMLA-PSI-LCA"
+  branch: "main"
+
+sphinx:
+  config:
+    html_theme: "sphinx_book_theme"
+    html_theme_options:
+      repository_url: "https://github.com/auribep18/GIMLA-PSI-LCA"
+      use_repository_button: true
+      use_issues_button: true
